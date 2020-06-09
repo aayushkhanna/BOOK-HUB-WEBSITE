@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  body{
+    background-color:#000000;
+    color : #000000;
+  }
+  .bg-grey {
+    background-color: #000000;
+}
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Book Hub</title>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BOOK HUB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="E:\SEM 6\WT LAB\Final Project\par.html">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="E:\SEM 6\WT LAB\Final Project\about us.html">ABOUT US</a>
+            <a class="nav-item nav-link" href="E:\SEM 6\WT LAB\Final Project\Login Page.html">SIGNUP</a>
+            <a class="nav-item nav-link" href="E:\SEM 6\WT LAB\Final Project\Login Page.html" tabindex="-1" aria-disabled="False">LOGIN</a>
+          </div>
+        </div>
+      </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        
+    <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="book1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="reading.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="reading1.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="container-fluid pt-4 mt-2 bg-grey">
+        <div class="row">
+          <div class="container">
+            <h4 class='text-justify text-center'><font color ="white"> BOOK HUB</font></h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+            <p style='font-family:century gothic;box-shadow:0px 0px 10px 0px lightgray;line-height:2;word-spacing:2;'class='pt-4 p-4'>
+            	<font color ="white">
+                Books are referred to as a man’s best friend. They are very beneficial for mankind and have helped it evolve. 
+                There is a powerhouse of information and knowledge. Books offer us so many things without asking for anything in return. 
+                Books leave a deep impact on us and are responsible for uplifting our mood.
+                Books are of great importance to mankind. They enhance our knowledge and vocabulary.
+                They keep us entertained and also widen our perspective. This, in turn, makes us more confident and wise.
+                Here you can get all types of books whether subject related or of your interests as well.</font>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class='row pl-4 pt-2 bg-grey' >
+                        
+        <div class='col-md-3 bg-grey'>
+  <div class="card bg-dark" style="width: 18rem;">
+    <img src="c.jpg"  class= "card-img-top" alt=".." height="300px">
+    <div class="card-body">
+      <h5 class="card-title text-justify text-center "style='font-family:century gothic; color: aliceblue;'>
+      <b>C</b></h5>
+      
+      <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\C Programming.html" class="btn btn-dark">CLICK HERE</a>
+      </div>
+    </div>
+  </div>
+  <div class='col-md-3 bg-grey'>
+    <div class="card bg-dark" style="width: 18rem; slideanim">
+      <img src="cpp.jpg"   class="card-img-top" alt=".." height="300px">
+      <div class="card-body">
+        <h5 class="card-title text-justify text-center" style='font-family:century gothic;color: aliceblue;'>
+        <b>C++</b></h5>
+       
+        <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\C++ Programming.html" class="btn btn-dark">CLICK HERE</a>
+        </div>
+      </div>
+    </div>
+    <div class='col-md-3 bg-grey'>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img src="python.jpg" class="card-img-top" alt=".." height="300px">
+          <div class="card-body">
+            <h5 class="card-title text-justify text-center" style='font-family:century gothic; color: aliceblue;'>
+              <b>PYTHON</b></h5>
+            
+            <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\python.html" class="btn btn-dark">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+    
+  <div class='col-md-3 bg-grey'>
+  <div class="card bg-dark" style="width: 18rem;">
+    <img src="java.jpg" class="card-img-top" alt=" " height="300px">
+    <div class="card-body">
+      <h5 class="card-title text-justify text-center"style='font-family:century gothic;color: aliceblue;'>
+      <b>JAVA</b></h5>
+      <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\java.html" class="btn btn-dark">CLICK HERE</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class='row pl-4 pt-2 bg-grey' >
+                        
+    <div class='col-md-3 bg-grey'>
+        
+<div class="card bg-dark" style="width: 18rem;">
+<img src="os.jpg"  class= "card-img-top" alt=".." height="300px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center "style='font-family:century gothic;color: aliceblue;'>
+  <b>OPERATING SYSTEM</b></h5>
+  
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Operating System.html" class="btn btn-dark ">CLICK HERE</a>
+  </div>
+</div>
+</div>
+<div class='col-md-3 bg-grey'>
+<div class="card bg-dark" style="width: 18rem;">
+  <img src="cn.jpg"   class="card-img-top" alt=".." height="300px">
+  <div class="card-body">
+    <h5 class="card-title text-justify text-center" style='font-family:century gothic;color: aliceblue;'>
+    <b>COMPUTER NETWORKS</b></h5>
+   
+    <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Computer networks.html" class="btn btn-dark">CLICK HERE</a>
+    </div>
+  </div>
+</div>
+<div class='col-md-3 bg-grey'>
+    <div class="card bg-dark" style="width: 18rem;">
+      <img src="datastruct.png" class="card-img-top" alt=".." height="300px">
+      <div class="card-body">
+        <h5 class="card-title text-justify text-center" style='font-family:century gothic; color: aliceblue;'>
+          <b>DATA STRUCTURES</b></h5>
+        
+        <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Data Structure.html" class="btn btn-dark">CLICK HERE</a>
+        </div>
+      </div>
+    </div>
+
+<div class='col-md-3 bg-grey'>
+<div class="card bg-dark" style="width: 18rem;">
+<img src="database.png" class="card-img-top" alt=" " height="300px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center"style='font-family:century gothic;color: aliceblue;'>
+  <b>DATABASES</b></h5>
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Database.html" class="btn btn-dark">CLICK HERE</a>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class='row pl-4 pt-2 bg-grey' >
+                        
+    <div class='col-md-3 bg-grey'>
+        
+<div class="card bg-dark" style="width: 18rem;">
+<img src="aptitude.jpeg"  class= "card-img-top" alt=".." height="300px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center "style='font-family:century gothic;color: aliceblue;'>
+  <b>APTITUDE AND REASONING</b></h5>
+  
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Aptitude and Reasoning.html" class="btn btn-dark ">CLICK HERE</a>
+  </div>
+</div>
+</div>
+
+<div class='col-md-3 bg-grey'>      
+<div class="card bg-dark" style="width: 18rem;">
+<img src="novels.jpg"  class= "card-img-top" alt=".." height="325px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center "style='font-family:century gothic;color: aliceblue;'>
+  <b>NOVELS</b></h5>
+  
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS/Novels.html" class="btn btn-dark ">CLICK HERE</a>
+  </div>
+</div>
+</div>
+
+                        
+<div class='col-md-3 bg-grey'>       
+<div class="card bg-dark" style="width: 18rem;">
+<img src="swift.jpeg"  class= "card-img-top" alt=".." height="325px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center "style='font-family:century gothic;color: aliceblue;'>
+  <b>SWIFT</b></h5>
+  
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Swift Programming.html" class="btn btn-dark ">CLICK HERE</a>
+  </div>
+</div>
+</div>
+
+<div class='col-md-3 bg-grey'>       
+<div class="card bg-dark" style="width: 18rem;">
+<img src="rust.jpg"  class= "card-img-top" alt=".." height="325px">
+<div class="card-body">
+  <h5 class="card-title text-justify text-center "style='font-family:century gothic;color: aliceblue;'>
+  <b>RUST</b></h5>
+  
+  <a href="E:\SEM 6\WT LAB\Final Project\ALL SUBJECTS\Rust Programming.html" class="btn btn-dark ">CLICK HERE</a>
+  </div>
+</div>
+</div>
+
+      <div class="container-fluid bg-dark text-white pt-4 mt-2">
+        <div class="container">
+<div class='row'>
+    <div class='col-md-6'>
+        <h5>Overview</h5>
+        <p style='font-family:century gothic'>This portal helps you to view and  download number of books . 
+        You can view or download any book related to computer science, literature,psychology,novels etc without paying anything. </p>
+    </div>
+    <div class='col-md-3'>
+        
+    </div>
+    <div class='col-md-3 text-center'>
+        <h5>
+        <a href="E:\SEM 6\WT LAB\Final Project\par.html" style="color:white">Home</h5></a>
+        
+        
+    </div>
+</div>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>

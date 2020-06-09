@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title> Login Page </title>
+  <link rel ="stylesheet" href ="style.css">
+</head>
+<body>
+  <form class ="box" name="loginForm" onsubmit="return check(form)" action ="par.html" method ="post";>
+    <h1><font color="white"> LOGIN</font> </h1>
+    <div class="container">
+    <input type ="text"  placeholder="username" name ="userid" required>
+    <input type ="password"  placeholder="password"  name ="pwd" required>
+    <input type ="submit"  onclick="return check(this.form)" value="LOGIN">
+</div>
+    <input type ="RESET" value="RESET">
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value == "Aayush" && form.pwd.value == "1701214")
+{
+  submit.onclick="Location.href='E:\SEM 6\WT LAB\Final Project\par.html'";
+}
+else if(form.userid.value == "Arshpreet" && form.pwd.value == "1701237")
+{
+   submit.onclick="Location.href='E:\SEM 6\WT LAB\Final Project\par.html'";
+}
+else if(form.userid.value == "Jasmeen" && form.pwd.value == "1701272")
+{
+  submit.onclick="Location.href='E:\SEM 6\WT LAB\Final Project\par.html'";
+}
+else if(form.userid.value == "Jatin" && form.pwd.value == "1701274")
+{
+   submit.onclick="Location.href='E:\SEM 6\WT LAB\Final Project\par.html'";
+}
+else if(form.userid.value == "Lalit" && form.pwd.value == "1701287")
+{
+   submit.onclick="Location.href='E:\SEM 6\WT LAB\Final Project\par.html'";
+}
+else
+{
+  alert("Incorrect Login Information")
+  return false;
+}
+}
+</script>
+</body>
+</html>   
